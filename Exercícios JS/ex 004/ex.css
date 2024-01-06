@@ -1,0 +1,54 @@
+body{
+    background-color: #b15f5f;
+    font: normal 15pt arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: rgb(252, 197, 209);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0.363);
+}
+.numero{
+    background-color: rgb(242, 220, 220);
+    border-radius: 5px;
+}
+footer{
+    color: rgb(215, 172, 180);
+    text-align: center;
+    font-style: italic;
+}
+.btn-tabuada{
+    background-color: rgba(141, 54, 71, 0.781);
+    border-color: rgb(161, 110, 117);
+    color: white;
+
+    height: 25px;
+    width: 110px;
+    font-family:bold;
+    font-size: 82%;
+    border-radius: 10px;
+}
+
+.btn-tabuada:hover{
+    background-color: rgba(109, 44, 64, 0.781);
+    border-color: rgb(133, 92, 98);
+    color: white;
+    height: 25px;
+    width: 110px;
+    font-family:bold;
+    font-size: 82%;
+    border-radius: 10px;
+}
+::selection{
+    background: #bc8f9f;
+    color: white;
+}
+select{
+    overflow: hidden;
+}

@@ -1,0 +1,20 @@
+/*
+//executa o teste antes do bloco
+while->enquanto
+(condição)
+{}->bloco
+*/
+
+/*
+function comerPizza(){
+    while (temFatias()){
+        comerFatia()
+    }
+}
+*/
+
+/*executa o teste depois do bloco
+//
+do{
+}while(condição)
+*/

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nacionalidade</title>
+  </head>
+  <style>
+    body{
+        background-color: rgb(144, 169, 144);
+        color: white;
+        font: normal 15pt bold;
+    }
+    input{
+        background-color: rgb(144, 169, 144);
+        color: white;
+        font: normal 15pt bold;
+    }
+</style>
+  <body>
+    <h1 align="center">Origem</h1>
+    Onde você nasceu? 
+    <input type="text" name="txtpais" id="txtpais" />
+    <input type="button" value="verificar" onclick="analisar()" />
+    <div id="resp"></div>
+    <script>
+      function analisar() {
+        var txtp = document.querySelector("input#txtpais");
+        var resp = document.querySelector("div#resp");
+        var pais = txtp.value;
+        resp.innerHTML = `<p>Seu país de origem é <strong>${pais}</strong></p>`;
+        if (pais == "Brasil" || pais == "brasil") {
+          resp.innerHTML += `<p>Você é Brasileiro!`;
+        }else{
+          resp.innerHTML += `<p>Você é Estrangeiro!`;
+        }
+      }
+    </script>
+  </body>
+</html>
